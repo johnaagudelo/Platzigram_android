@@ -2,4 +2,12 @@
 <resources>
     <string name="hint_username">Username</string>
     <string name="hint_password">Password</string>
+    <string name="text_button_login">Login</string>
+    <string name="dont_have_account">Don`t have account?, </string>
+    <string name="create_here">Create here.</string>
+    <string name="text_button_createaccount">Join</string>
+    <string name="hint_confirm_password">Confirm password</string>
+    <string name="hint_user">Username</string>
+    <string name="hint_mail">Email</string>
+    <string name="toolbar_title_createaccount">Create Account</string>
 </resources>
