@@ -33,7 +33,7 @@ public class HomeFragment extends Fragment {
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         View view = inflater.inflate(R.layout.fragment_home, container, false);
-        showToolbar("Home", false, view);
+        showToolbar(getResources().getString(R.string.tab_home), false, view);
 
         //Obtenemos el recycler view
         RecyclerView pictureRecycler = (RecyclerView) view.findViewById(R.id.pictureRecycler);
@@ -52,9 +52,9 @@ public class HomeFragment extends Fragment {
 
     public ArrayList<Picture> buildPictures(){
         ArrayList<Picture> pictures = new ArrayList<>();
-        pictures.add(new Picture("http://www.novalandtours.com/images/guide/guilin.jpg", "John Alex", "4 días", "3"));
-        pictures.add(new Picture("http://www.novalandtours.com/images/guide/guilin.jpg", "Juan Diego", "2 días", "10"));
-        pictures.add(new Picture("http://www.novalandtours.com/images/guide/guilin.jpg", "Jenifer", "1 días", "5"));
+        pictures.add(new Picture("http://www.novalandtours.com/images/guide/guilin.jpg", "John Alex", "4 días", "3 Me gusta"));
+        pictures.add(new Picture("http://www.novalandtours.com/images/guide/guilin.jpg", "Juan Diego", "2 días", "10 Me gusta"));
+        pictures.add(new Picture("http://www.novalandtours.com/images/guide/guilin.jpg", "Jenifer", "1 días", "5 Me gusta"));
         return pictures;
     }
 
